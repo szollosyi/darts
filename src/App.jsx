@@ -26,7 +26,7 @@ export const App=()=> {
         <Route path="/darts/:dartsId" element={<DartsSingle />} />
         <Route path="/darts-mod/:dartsId" element={<DartsMod />} />
         <Route path="/darts-create" element={<DartsCreate />} />
-        <Route path="/darts-del/:dartsId" element={<DartsMod />} />
+        <Route path="/darts-del/:dartsId" element={<DartsDel />} />
       </Routes>
     </Router>
   );
